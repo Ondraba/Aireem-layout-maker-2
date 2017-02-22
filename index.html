@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bibi$</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="styles/css/bless.css" />
+	<link rel="stylesheet" href="styles/css/main_styles.css" />
+	<link rel="stylesheet" href="styles/css/ui.css" />
+	<link rel="stylesheet" href="styles/css/jquery-ui.css" />
+
+</head>
+
+<body>
+	<div class='test-content'>
+		<div class='container-fluid'>
+			<header>
+				<div class='row'>
+					<div class='col-sm-12 upper-index-header'></div>
+					<div class='col-sm-12 index-header'>
+						<div class='row'>
+							<div class='col-sm-4'></div>
+								<div class='col-sm-3'>
+									<div class='col-sm-10'>
+										<div class='row'>
+											<h1 class='index-title white'>Ai<span class='blue'>R</span>eem</h1>
+										</div>
+										<div class='row'>
+											<h5 class='blue bold'>Simple tool for your next responsive <span class='white'>[</span>layout<span class='white'>]</span></h5>
+										</div>
+									</div>
+									<div class='col-sm-2 logo'>
+										<img src='img/logo.png'>
+									</div>
+								</div>
+
+							<div class='col-sm-4'></div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class='col-sm-12 disjoiner'></div>
+			<content>
+
+
+				<div class='col-sm-12'>
+					<div class="row">
+						<div class='col-sm-1'></div>
+						<div class='col-sm-4 user-input'>
+							<div class='col-sm-12'>
+								<div class='button-area'>
+									<button type="button" class="btn js_switch_to_edit switch_to_edit">EDIT</button>
+									<button type="button" class= "btn js_sumbit_new_element sumbit_new_element">ADD</button>
+									<button type="button" class="btn js_remove_core_element remove_core_element">X</button>
+								</div>
+								<div class='drag-area'>
+									<div class='col-sm-6'>
+										<div class='dragable' id='drag-targeter'>
+
+										</div>
+									</div>
+									<div class='col-sm-6'>
+										<div class='dragable-describe'>Drag this to your canvas area or content element.</div>
+								 </div>
+							 </div>
+								<hr />
+								<div class='edit-panel-main'>
+									<div class='row'>
+									</div>
+								</div>
+								<div class='favourites-area'>
+									<div class='row'>
+										<div class='col-sm-12'></div>
+									</div>
+								</div>
+								<div class='custom-props-area'>
+									<div class='row'>
+									</div>
+								</div>
+							<div class='row'>
+								<div class='col-sm-9'>
+									<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1">Add class:</span>
+										<input type="text" class="form-control js_class-input class-input" placeholder="CSS class name" aria-describedby="basic-addon1">
+									</div>
+								</div>
+								<div class='col-sm-3'>
+										<button type="button" class="btn btn-primary btn-block js_class-button class-button">></button>
+								</div>
+							</div>
+							</div>
+
+
+							<div class='col-sm-12'>
+								<div class='element-review'>
+								</div>
+							</div>
+						</div>
+						<div class='col-sm-1'></div>
+						<div class='col-sm-5 structure-map'>
+							<div class="col-sm-12">
+								<div class='row'>
+									<div id='structure-content-menu'>
+										<button type="button" class="btn js_prev-version-button prev-version-button">Item -</button>
+										<button type="button" class="btn js_next-version-button next-version-button">Item +</button>
+									</div>
+								</div>
+								<div class='row'>
+									<div id='structure-content'>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='col-sm-12 horizontal-disjoiner'>
+
+				</div>
+				<div id='result-content'>
+					<div class='row'>
+						<div class='col-sm-12'>
+							<div class='row'>
+								<div class='col-sm-2'>
+
+								</div>
+								<div class='col-sm-8 result-table'>
+									<div class='row'>
+										<div class='col-sm-4 result-toolbar'>
+										</div>
+										<div class='col-sm-8'>
+											<div class="row result-title">
+												CODE RESULT
+											</div>
+											<div class='row result-showroom'>
+
+											</div>
+											<div class="row result-title">
+												/CODE RESULT
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class='col-sm-2'>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='foooter'>
+
+				</div>
+			</content>
+		</div>
+	</div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- <script src="js/AppOptions.js"></script> -->
+	<script src="js/PropsPanelOptions.js"></script>
+	<script src="js/LayoutBuilderOptions.js"></script>
+	<script src="js/DictionaryOptions.js"></script>
+	<script src="js/StructureEntity.js"></script>
+	<script src="js/ControlPanelUI.js"></script>
+	<script src="js/Helpers.js"></script>
+	<script src="js/DataTranslator.js"></script>
+	<script src="js/PropsPanelUI.js"></script>
+	<script src="js/EditPanelUI.js"></script>
+	<script src="js/DictionaryEngine.js"></script>
+	<!-- <script src="js/PreviewPanelUI.js"></script> -->
+	<script src="js/StateManager.js"></script>
+	<script src="js/HistoryMem.js"></script>
+	<script src="js/EventDirector.js"></script>
+	<script>
+		var propsPanelOptions = new PropsPanelOptions();
+		var layoutBuilderOptions = new LayoutBuilderOptions();
+		var dictionaryOptions = new DictionaryOptions();
+		var helpers = new Helpers();
+		var structureEntity = new StructureEntity();
+		var dataTranslator = new DataTranslator();
+		var stateManager = new StateManager();
+		var propsPanelUI = new PropsPanelUI();
+		var editPanelUI = new EditPanelUI();
+		var controlPanelUI = new ControlPanelUI();
+		var dictionaryEngine = new DictionaryEngine();
+		var historyMem = new HistoryMem();
+		// var previewPanelUI = new PreviewPanelUI();
+		var eventDirector = new EventDirector();
+	</script>
+</body>
+
+</html>

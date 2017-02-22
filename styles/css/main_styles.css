@@ -1,0 +1,111 @@
+/*.upper-index-header {
+  min-height: 60px;
+  background-color: #222222;
+}
+.index-header {
+  min-height: 250px;
+  background-color: #2d2d2d;
+}
+.index-title {
+  color: white;
+  font-size: 5em;
+}
+.index-sub-title {
+  color: #61dafb;
+  font-weight: bold;
+}
+.blue-title {
+  color: #61dafb;
+}*/
+/*.user-input {
+  padding-top: 20px;
+  background-color: #2d2d2d;
+  height: 600px;
+}*/
+/*.structure-map {
+  background-color: #2d2d2d;
+  height: 600px;
+  padding-top: 20px;
+/*}*/
+/*.disjoiner {
+  height: 40px;
+}
+.form-group {
+  color: white;
+}
+.logo {
+  padding-top: 20px;
+  margin-left: -160px;
+}*/
+/*.white {
+  /*color: white;
+
+/*.structure-content {
+  padding: 40px;
+}*/
+/*.input-group {
+  margin-bottom: 15px;
+  float: left;
+}*/
+
+
+
+
+/*.standard-favourite-box, .standard-props-box{
+  background-color: coral;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  height: 40px;
+  min-width: 80px;
+  width: fit-content;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  float: left;
+}
+
+.custom-props-box, .js_edit_prop_box {
+  background-color: yellow;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  height: 40px;
+  min-width: 80px;
+  width: fit-content;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  float: left;
+}*/
+
+
+
+
+
+/*.horizontal-disjoiner{
+  background-color: white;
+  height: 40px;
+}*/
+
+.result-toolbar{
+  background-color: white;
+  min-height: 360px;
+}
+
+
+.result-showroom{
+  background-color: white;
+  min-height: 360px;
+}
+
+.tagPacket{
+  font-weight: bold;
+}
+
+.tagPacketInside{
+  padding-left: 15px;
+  font-weight: lighter;
+}
